@@ -1,0 +1,71 @@
+Altera SOPC Builder Version 9.12 Build 350
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.02.09 23:06:43 (*) mk_custom_sdk starting
+# 2012.02.09 23:06:43 (*) Reading project F:/dsd/SOPC_de2-70/SOPC_demo/SOPC_demo.ptf.
+
+# 2012.02.09 23:06:44 (*) Finding all CPUs
+# 2012.02.09 23:06:44 (*) Finding all available components
+# 2012.02.09 23:06:44 (*) Reading F:/dsd/SOPC_de2-70/SOPC_demo/.sopc_builder/install.ptf
+
+# 2012.02.09 23:06:44 (*) Found 67 components
+
+# 2012.02.09 23:06:45 (*) Finding all peripherals
+
+# 2012.02.09 23:06:45 (*) Finding software components
+
+# 2012.02.09 23:06:45 (*) (Legacy SDK Generation Skipped)
+# 2012.02.09 23:06:45 (*) (All TCL Script Generation Skipped)
+# 2012.02.09 23:06:45 (*) (No Libraries Built)
+# 2012.02.09 23:06:45 (*) (Contents Generation Skipped)
+# 2012.02.09 23:06:45 (*) mk_custom_sdk finishing
+# 2012.02.09 23:06:45 (*) Starting generation for system: SOPC_demo.
+
+.
+.
+.
+.
+
+# 2012.02.09 23:06:46 (*) Running Generator Program for cpu_0
+
+# 2012.02.09 23:06:49 (*) Starting Nios II generation
+# 2012.02.09 23:06:50 (*)   Checking for plaintext license.
+# 2012.02.09 23:06:51 (*)   Plaintext license not found.
+# 2012.02.09 23:06:51 (*)   No license required to generate encrypted Nios II/e.
+# 2012.02.09 23:06:51 (*)   Getting CPU configuration settings
+# 2012.02.09 23:06:51 (*)   Elaborating CPU configuration settings
+# 2012.02.09 23:06:51 (*)   Creating all objects for CPU
+# 2012.02.09 23:06:54 (*)   Generating HDL from CPU objects
+# 2012.02.09 23:06:54 (*)   Creating plain-text HDL
+
+# 2012.02.09 23:06:57 (*) Done Nios II generation
+
+# 2012.02.09 23:06:57 (*) Running Generator Program for onchip_memory2_0
+
+# 2012.02.09 23:06:58 (*) Running Generator Program for jtag_uart_0
+
+# 2012.02.09 23:07:00 (*) Running Generator Program for pio_0
+
+
+# 2012.02.09 23:07:00 (*) Making arbitration and system (top) modules.
+
+# 2012.02.09 23:07:04 (*) Generating Quartus symbol for top level: SOPC_demo
+
+# 2012.02.09 23:07:04 (*) Symbol F:/dsd/SOPC_de2-70/SOPC_demo/SOPC_demo.bsf already exists, no need to regenerate
+# 2012.02.09 23:07:04 (*) Creating command-line system-generation script: F:/dsd/SOPC_de2-70/SOPC_demo/SOPC_demo_generation_script
+
+# 2012.02.09 23:07:04 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.02.09 23:07:04 (*) Completed generation for system: SOPC_demo.
+# 2012.02.09 23:07:04 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : F:/dsd/SOPC_de2-70/SOPC_demo/SOPC_demo.ptf 
+  System HDL Model : F:/dsd/SOPC_de2-70/SOPC_demo/SOPC_demo.v 
+  System Generation Script : F:/dsd/SOPC_de2-70/SOPC_demo/SOPC_demo_generation_script 
+
+# 2012.02.09 23:07:04 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.
