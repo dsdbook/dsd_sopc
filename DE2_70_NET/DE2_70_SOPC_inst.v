@@ -1,0 +1,36 @@
+  //Example instantiation for system 'DE2_70_SOPC'
+  DE2_70_SOPC DE2_70_SOPC_inst
+    (
+      .address_to_the_cfi_flash                        (address_to_the_cfi_flash),
+      .avs_s1_export_ENET_CLK_from_the_DM9000A         (avs_s1_export_ENET_CLK_from_the_DM9000A),
+      .avs_s1_export_ENET_CMD_from_the_DM9000A         (avs_s1_export_ENET_CMD_from_the_DM9000A),
+      .avs_s1_export_ENET_CS_N_from_the_DM9000A        (avs_s1_export_ENET_CS_N_from_the_DM9000A),
+      .avs_s1_export_ENET_DATA_to_and_from_the_DM9000A (avs_s1_export_ENET_DATA_to_and_from_the_DM9000A),
+      .avs_s1_export_ENET_INT_to_the_DM9000A           (avs_s1_export_ENET_INT_to_the_DM9000A),
+      .avs_s1_export_ENET_RD_N_from_the_DM9000A        (avs_s1_export_ENET_RD_N_from_the_DM9000A),
+      .avs_s1_export_ENET_RST_N_from_the_DM9000A       (avs_s1_export_ENET_RST_N_from_the_DM9000A),
+      .avs_s1_export_ENET_WR_N_from_the_DM9000A        (avs_s1_export_ENET_WR_N_from_the_DM9000A),
+      .clk_25                                          (clk_25),
+      .clk_50                                          (clk_50),
+      .cts_n_to_the_uart                               (cts_n_to_the_uart),
+      .data_to_and_from_the_cfi_flash                  (data_to_and_from_the_cfi_flash),
+      .pll_c0_system                                   (pll_c0_system),
+      .pll_c1_memory                                   (pll_c1_memory),
+      .read_n_to_the_cfi_flash                         (read_n_to_the_cfi_flash),
+      .reset_n                                         (reset_n),
+      .rts_n_from_the_uart                             (rts_n_from_the_uart),
+      .rxd_to_the_uart                                 (rxd_to_the_uart),
+      .select_n_to_the_cfi_flash                       (select_n_to_the_cfi_flash),
+      .txd_from_the_uart                               (txd_from_the_uart),
+      .write_n_to_the_cfi_flash                        (write_n_to_the_cfi_flash),
+      .zs_addr_from_the_sdram_u1                       (zs_addr_from_the_sdram_u1),
+      .zs_ba_from_the_sdram_u1                         (zs_ba_from_the_sdram_u1),
+      .zs_cas_n_from_the_sdram_u1                      (zs_cas_n_from_the_sdram_u1),
+      .zs_cke_from_the_sdram_u1                        (zs_cke_from_the_sdram_u1),
+      .zs_cs_n_from_the_sdram_u1                       (zs_cs_n_from_the_sdram_u1),
+      .zs_dq_to_and_from_the_sdram_u1                  (zs_dq_to_and_from_the_sdram_u1),
+      .zs_dqm_from_the_sdram_u1                        (zs_dqm_from_the_sdram_u1),
+      .zs_ras_n_from_the_sdram_u1                      (zs_ras_n_from_the_sdram_u1),
+      .zs_we_n_from_the_sdram_u1                       (zs_we_n_from_the_sdram_u1)
+    );
+
