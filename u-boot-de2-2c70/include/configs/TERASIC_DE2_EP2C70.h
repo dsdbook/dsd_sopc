@@ -53,7 +53,7 @@
 /*------------------------------------------------------------------------
  * MEMORY BASE ADDRESSES
  *----------------------------------------------------------------------*/
-#define CFG_FLASH_BASE		na_cfi_flash	/* FLASH base addr	*/
+#define CFG_FLASH_BASE		(na_cfi_flash | 0x80000000)	/* FLASH base addr	*/
 #define CFG_FLASH_SIZE		na_cfi_flash_size /* 8 MByte		*/
 #define CFG_SDRAM_BASE		nasys_program_mem /* SDRAM base addr	*/
 #define CFG_SDRAM_SIZE		nasys_program_mem_size /* 32 MByte	*/
@@ -215,6 +215,8 @@
 #define CONFIG_CMD_PORTIO
 
 #define CONFIG_CMD_RUN
+
+#define CONFIG_BOOTDELAY 3
 
 //#undef CONFIG_CMD_AUTOSCRIPT
 //#undef CONFIG_CMD_BOOTD
