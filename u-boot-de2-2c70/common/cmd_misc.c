@@ -49,6 +49,7 @@ int do_sleep (cmd_tbl_t *cmdtp, int flag, int argc, char *argv[])
 	return 0;
 }
 
+#if 0
 /* Implemented in $(CPU)/interrupts.c */
 #if defined(CONFIG_CMD_IRQ)
 int do_irqinfo (cmd_tbl_t *cmdtp, int flag, int argc, char *argv[]);
@@ -58,6 +59,7 @@ U_BOOT_CMD(
 	"irqinfo - print information about IRQs\n",
 	NULL
 );
+#endif
 #endif
 
 U_BOOT_CMD(

@@ -375,6 +375,12 @@ cmd_tbl_t *find_cmd (const char *cmd)
 	return NULL;	/* not found or ambiguous command */
 }
 
+
+void cmd_usage(cmd_tbl_t *cmdtp)
+{
+	printf("Usage:\n%s - %s\n\n", cmdtp->name, cmdtp->usage);
+}
+
 #ifdef CONFIG_AUTO_COMPLETE
 
 int var_complete(int argc, char *argv[], char last_char, int maxv, char *cmdv[])

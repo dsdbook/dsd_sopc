@@ -207,6 +207,7 @@
 
 #include <config_cmd_default.h>
 
+#define CONFIG_AUTO_COMPLETE
 #define CONFIG_CMD_DHCP
 #define CONFIG_CMD_IRQ
 #define CONFIG_CMD_PING
