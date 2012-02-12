@@ -1,0 +1,109 @@
+Altera SOPC Builder Version 9.12 Build 350
+Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.
+
+
+No .sopc_builder configuration file(!)
+# 2012.02.12 09:54:05 (*) mk_custom_sdk starting
+# 2012.02.12 09:54:05 (*) Reading project F:/dsd/SOPC_de2-70/DE2_70_NET_alu/DE2_70_SOPC.ptf.
+
+# 2012.02.12 09:54:05 (*) Finding all CPUs
+# 2012.02.12 09:54:05 (*) Finding all available components
+# 2012.02.12 09:54:05 (*) Reading F:/dsd/SOPC_de2-70/DE2_70_NET_alu/.sopc_builder/install.ptf
+
+# 2012.02.12 09:54:06 (*) Found 67 components
+
+# 2012.02.12 09:54:06 (*) Finding all peripherals
+
+# 2012.02.12 09:54:06 (*) Finding software components
+
+# 2012.02.12 09:54:07 (*) (Legacy SDK Generation Skipped)
+# 2012.02.12 09:54:07 (*) (All TCL Script Generation Skipped)
+# 2012.02.12 09:54:07 (*) (No Libraries Built)
+# 2012.02.12 09:54:07 (*) (Contents Generation Skipped)
+# 2012.02.12 09:54:07 (*) mk_custom_sdk finishing
+
+# 2012.02.12 09:54:07 (*) Starting generation for system: DE2_70_SOPC.
+
+.
+.
+.
+.
+.
+.
+..
+.
+....
+
+# 2012.02.12 09:54:09 (*) Running Generator Program for cpu
+
+# 2012.02.12 09:54:12 (*) Starting Nios II generation
+# 2012.02.12 09:54:12 (*)   Checking for plaintext license.
+# 2012.02.12 09:54:12 (*)   Plaintext license not found.
+# 2012.02.12 09:54:12 (*)   Checking for encrypted license (non-evaluation).
+# 2012.02.12 09:54:13 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2012.02.12 09:54:13 (*)   Getting CPU configuration settings
+# 2012.02.12 09:54:13 (*)   Elaborating CPU configuration settings
+# 2012.02.12 09:54:13 (*)   Creating all objects for CPU
+
+# 2012.02.12 09:54:13 (*)     Testbench
+# 2012.02.12 09:54:13 (*)     Instruction decoding
+# 2012.02.12 09:54:13 (*)       Instruction fields
+# 2012.02.12 09:54:13 (*)       Instruction decodes
+# 2012.02.12 09:54:14 (*)       Signals for RTL simulation waveforms
+# 2012.02.12 09:54:14 (*)       Instruction controls
+# 2012.02.12 09:54:14 (*)     Pipeline frontend
+# 2012.02.12 09:54:15 (*)     Pipeline backend
+# 2012.02.12 09:54:19 (*)   Generating HDL from CPU objects
+# 2012.02.12 09:54:23 (*)   Creating encrypted HDL
+
+# 2012.02.12 09:54:25 (*) Done Nios II generation
+
+# 2012.02.12 09:54:26 (*) Running Generator Program for sdram_u1
+
+# 2012.02.12 09:54:27 (*) Running Generator Program for cfi_flash
+
+# 2012.02.12 09:54:29 (*) Running Generator Program for sysid
+
+# 2012.02.12 09:54:30 (*) Running Generator Program for uart
+
+# 2012.02.12 09:54:31 (*) Running Generator Program for pll
+
+# 2012.02.12 09:54:43 (*) Running Generator Program for timer
+
+# 2012.02.12 09:54:44 (*) Running Generator Program for timer_stamp
+
+# 2012.02.12 09:54:46 (*) Running Generator Program for epcs_flash_controller
+
+# 2012.02.12 09:54:47 (*) Running Generator Program for DE2_70_SOPC_clock_0
+
+# 2012.02.12 09:54:49 (*) Running Generator Program for DE2_70_SOPC_clock_1
+
+# 2012.02.12 09:54:50 (*) Running Generator Program for DE2_70_SOPC_clock_2
+
+# 2012.02.12 09:54:52 (*) Running Generator Program for DE2_70_SOPC_clock_3
+
+.
+
+
+# 2012.02.12 09:54:53 (*) Running Test Generator Program for sdram_u1
+
+# 2012.02.12 09:54:54 (*) Making arbitration and system (top) modules.
+
+# 2012.02.12 09:55:03 (*) Generating Quartus symbol for top level: DE2_70_SOPC
+
+# 2012.02.12 09:55:04 (*) Symbol F:/dsd/SOPC_de2-70/DE2_70_NET_alu/DE2_70_SOPC.bsf already exists, no need to regenerate
+# 2012.02.12 09:55:04 (*) Creating command-line system-generation script: F:/dsd/SOPC_de2-70/DE2_70_NET_alu/DE2_70_SOPC_generation_script
+
+# 2012.02.12 09:55:04 (*) Running setup for HDL simulator: modelsim
+
+
+# 2012.02.12 09:55:04 (*) Completed generation for system: DE2_70_SOPC.
+# 2012.02.12 09:55:04 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : F:/dsd/SOPC_de2-70/DE2_70_NET_alu/DE2_70_SOPC.ptf 
+  System HDL Model : F:/dsd/SOPC_de2-70/DE2_70_NET_alu/DE2_70_SOPC.v 
+  System Generation Script : F:/dsd/SOPC_de2-70/DE2_70_NET_alu/DE2_70_SOPC_generation_script 
+
+# 2012.02.12 09:55:04 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.
